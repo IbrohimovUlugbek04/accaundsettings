@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>Account settings</title>
+</head>
+
+<body>
+  <section class="hero">
+    <div class="container">
+      <h1 class="visually-hidden">Account</h1>
+      <form class="hero-form" action="https://echo.htmlacademy.ru/">
+        <div class="hero__form-box">
+          <h2 class="hero-headding">Account settings</h2>
+          <button class="hero__box-button" type="reset">
+            <img src="./images/xmark-solid.svg" width="30" height="30" alt="x">
+          </button>
+        </div>
+        <div class="form__input-box">
+          <img class="form__box-img" src="./images/avatar.jpg" width="70" height="70" alt="avatar">
+          <label class="form__box-label">
+            USERNAME
+            <input class="form__box-input" name="user_name" type="text" placeholder="Enter your user name">
+          </label>
+          <div class="input-box">
+            <label>
+              FIRST NAME
+              <input class="form__box-input" name="first_name" type="text" placeholder="Enter your first name">
+            </label>
+            <label>
+              LAST NAME
+              <input class="form__box-input" name="last_name" type="text" placeholder="Enter your last name">
+            </label>
+          </div>
+          <label>
+            EMAIL
+            <input class="form__box-input" name="user_email" type="email" placeholder="Enter your email">
+          </label>
+          <label>
+            BIO
+            <textarea class="form__box-textarea" name="user_bio" rows="5" placeholder="Tell us yourself"></textarea>
+          </label>
+        </div>
+        <div class="form__button-box">
+          <button class="button__box-button" type="reset">Cancel</button>
+          <button class="button__box-button" type="submit">Save</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
